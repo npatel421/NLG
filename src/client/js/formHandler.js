@@ -85,4 +85,4 @@ const sendDataSent = async (url = '') => {
   }
 }
 
-export { handleSubmit }
+export { handleSubmit, postData }
