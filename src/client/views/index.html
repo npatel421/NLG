@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Natural Language Processing
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <p>Select type of input you would like to process:</p>
+                    <input type="radio" name="apipicker" class="apipicker" id="classify" value="classify" required> 
+                    <label for="classify">Classify API</label> <br>
+                    <input type="radio" name="apipicker" class="apipicker" id="sentiment" value="sentiment"> 
+                    <label for="sentiment">Sentiment API</label> <br>
+                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Input">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            <section>
+
+            <section>
+                <strong>API Results:</strong>
+                <div id="results"></div>
+                <div id="text"></div>
+                <div id="label"></div>
+                <div id="labelConfidence"></div>
+                <div id="polarity"></div>
+                <div id="subjectivity"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+    </body>
+</html>
