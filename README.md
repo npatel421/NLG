@@ -14,6 +14,15 @@ Use the package manager [npm] to install all plugins and loaders shown in the pa
 npm install
 ```
 
+Once you have installed all the necessary plugins and loaders. Reference scripts in the _package.json_ file to start the project on a local server. You can do this my running the following. 
+
+``` npm run build-prod
+    npm run build-dev
+    npm start
+```
+
+Make sure to note that the `npm start` will have to be started in a seperate terminal to run having multiple servers running at once. 
+
 ## API Reference
 
 Click [here](https://docs.aylien.com/textapi/#getting-started) to take a look at the Aylien API documentation that was used for this project. 
