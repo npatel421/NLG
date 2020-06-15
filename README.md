@@ -16,7 +16,8 @@ npm install
 
 Once you have installed all the necessary plugins and loaders. Reference scripts in the _package.json_ file to start the project on a local server. You can do this my running the following. 
 
-``` npm run build-prod
+``` 
+    npm run build-prod
     npm run build-dev
     npm start
 ```
